@@ -1,0 +1,191 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!---<header>
+    <div class="box-a1">
+      <h3>hello </h>
+      <p>hello hellojsjsjjs eije uejeje eiiw</p>
+    </div>
+  </header> -->
+  <div class="flex">
+    
+  <div class="box-a">
+    <img src="/Drop-Spin-Game.png" alt="">
+    <h1>hello technology</h1>
+<p>hello i am web developer this is my web page pless you develop web site for own bussnise contact me </p>
+  </div>
+  <div class="box-a">
+       <div class="di">
+        <div class="di-a"> 
+         <h3 class="hh">TechnologySr</h3>
+         <p class="hp">hello helli thisbis
+         jejekkekbg jskskwj</p>
+         <button  class="hb">play now</button>
+         </div>
+       </div>   
+    <h1>hello technology</h1>
+    <p>hello i am web developer this is my web page pless you develop web site for own bussnise contact me </p>
+  </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
+
+
+Ccccccccccc
+
+
+
+body {
+    font-size: 15pt;
+}
+
+.box-a{
+  border:3px solid ghostwhite;
+  padding:20px ;
+  margin:5px ;
+  width:350px;
+  
+  
+}
+div img{
+  width: 100%;
+  border-radius: 15px;
+}
+.flex{
+  flex-wrap:wrap;
+  margin:0px;
+  padding:5px;
+  display:flex;
+  justify-content: center;
+}
+
+.di{
+  width:100%;
+  height:216px;
+  border-radius: 15px;
+   /*background-color: #2E8B57;*/
+  background-image: url('https://source.unsplash.com/1600x800/?hell');
+  background-size:cover;
+  background-repeat: no-repeat;
+  position: relative;
+  bottom:10px;
+  
+}
+.di-a{
+  width:90%;
+  height:190px;
+  border-radius: 15px;
+  border: 3px solid black;
+  background: none;
+  margin: 15px;
+  position: relative;
+  top: 10px;
+  overflow:hidden;
+  
+}
+.hh{
+  color:black;
+  font-weight: bold;
+}
+header{
+  border: 4px solid red;
+  border-radius: 15px;
+  background-color:gray;
+  padding:20px;
+  margin:0px;
+  
+}
+
+
+
+
+
+
+
+
+/* button */
+
+.hb {
+  padding: 0.6em 2em;
+  margin: 3px;
+  border: none;
+  outline: none;
+  color: rgb(255, 255, 255);
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.hb:before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: button1 20s linear infinite;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+@keyframes button1 {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.hb:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #222;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+
+
